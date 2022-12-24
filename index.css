@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+    background-color:darkorange;
+    padding: 10px;
+    list-style: none; /* önündeki stili kaldırıyor */   
+    
+}
+.a4,.a5{
+    margin: -5px;
+    padding: 5px;
+    margin-right: 50px;
+    float: right;
+}
+nav ul li a:hover{
+    color:red;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 7px;
+    margin: 7px;  
+    color:black; 
+    
+}
+/* img yeri */
+.sola_kaydır{
+    float:left;
+    margin: 1.5cm;
+}
+.a6{
+ text-decoration: none;
+ position: relative;
+ bottom: -65px;
+}
+.n2{
+    width: 100%;
+   vertical-align:middle;
+}
+.res{
+    margin: 40px;
+    text-align: right;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-100%, -1%); 
+}
+
+button{
+    padding: 14px 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+.reverseBtn {
+ background-color: #333;
+ color: #f4bd01;
+ transition: ease-out 0.5s;
+ }
+
+ .reverseBtn:hover{
+    padding-left: 50px;
+    padding-right: 50px;}
+
+
+ p,h1{
+    color: aqua;
+    margin: 15px;
+ }
+      
+ .pop{
+    position: relative;
+    bottom: -100px;
+    right: -100px; 
+   }
+
+.img_parca{
+  padding: 80px;
+  display: flex;
+  text-align: center;
+}  
+.text{
+    color:black;
+}
+.başlik{
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    background-color: whitesmoke;
+    
+}
+.başlik1{
+    display: inline-block;
+    text-align: center;
+    margin: 100px;
+}
+.text1{
+    background-color:white;
+    color: black;
+    background-color: whitesmoke;
+}
+.fot{
+    padding: 40px;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+}
+
+    
+
+ 
